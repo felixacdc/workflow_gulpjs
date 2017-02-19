@@ -1,0 +1,14 @@
+{
+  "name": "gulp-course",
+  "version": "1.0.0",
+  "description": "App de prueba para el tutorial",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Felix",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
