@@ -6,13 +6,11 @@ gulp.task('saludar', () => {
 });
 
 gulp.task('sass', () => {
-    return gulp.src('scss/main.scss')
+    return gulp.src('scss/*.scss')
     .pipe(sass())
     .pipe(gulp.dest('app/css'));
 });
 
-// gulp.watch('archivo', ['tarea']);
-
 gulp.task('observar', () => {
-    gulp.watch('scss/main.scss', ['sass'])
+    gulp.watch('scss/*.scss', ['sass'])
 });
