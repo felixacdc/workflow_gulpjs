@@ -10,3 +10,9 @@ gulp.task('sass', () => {
     .pipe(sass())
     .pipe(gulp.dest('app/css'));
 });
+
+// gulp.watch('archivo', ['tarea']);
+
+gulp.task('observar', () => {
+    gulp.watch('scss/main.scss', ['sass'])
+});
